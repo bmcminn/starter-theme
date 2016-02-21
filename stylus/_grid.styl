@@ -1,0 +1,149 @@
+
+////////////////////////////////////////////////////////////
+//    ________________.-----------.___________________    //
+//   |                |   //^\\   |               \   |   //
+//   |   T I T L E    |  < CSS >  |   B  E  L  T   )  |   //
+//   |________________|   \\.//   |_______________/___|   //
+//                    `-----------'                       //
+//   Zot, Brandtley                                       //
+////////////////////////////////////////////////////////////
+
+
+
+//
+// BREAKPOINT DEFINITIONS
+//
+
+$mobile  = 0
+$tablet  = 480px
+$tabletLS  = 760px
+$desktop  = 1024px
+$desktopHD  = 1600px
+$desktopSHD  = 2000px
+
+
+
+//
+// DIMENSIONAL VARIABLES
+//
+
+$precision = 6
+
+
+$max-width = 1000px
+
+
+$whole    = 100%
+$half     = 50%
+$third    = round(100%/3, $precision)
+$fourth   = 25%
+$fifth    = 20%
+$sixth    = round(100%/6, $precision)
+$seventh  = round(100%/7, $precision)
+$eighth   = round(100%/8, $precision)
+$ninth    = round(100%/9, $precision)
+$tenth    = 10%
+
+
+
+//
+// BASE GRID STYLES
+//
+
+
+.container,   // These are used identically, though use whichever makes the most
+.row          // sense semantically
+    boxSizing(border-box)
+    display: block
+    width: $whole
+    font-size: 0
+    line-height: 0
+
+    &.max
+        max-width: $max-width
+        margin-left: auto
+        margin-right: auto
+
+    &.center
+        text-align: center;
+
+
+.container > *
+    boxSizing(border-box)
+    display: inline-block
+    position: relative
+    margin: 0
+    width: $whole
+    vertical-align: top
+    font-size: initial
+    line-height: $line-height
+    // text-align: initial
+
+.vtop
+    vertical-align: top
+
+.vcenter
+    vertical-align: center
+
+.vbaseline
+    vertical-align: baseline
+
+grid()
+
+
+
+//
+// MOBILE OVERRIDES
+//
+
+@media all and (min-width: $mobile)
+    // .col
+    grid('mobile')
+
+    [mobile]
+        padding: 1rem
+
+
+
+//
+// TABLET OVERRIDES
+//
+
+@media all and (min-width: $tablet)
+    // .col
+    grid('tablet')
+
+
+@media all and (min-width: $tabletLS)
+    // .col
+    grid('tablet-landscape')
+
+
+
+//
+// DESKTOP OVERRIDES
+//
+
+@media all and (min-width: $desktop)
+    // .col
+    grid('desktop')
+
+
+
+// //
+// // DESKTOP HD OVERRIDES
+// //
+
+// @media all and (min-width: $desktopHD)
+//     .col
+//         grid('desktop-hd')
+
+
+
+// //
+// // DESKTOP SHD OVERRIDES
+// //
+
+// @media all and (min-width: $desktopSHD)
+//     .col
+//         grid('desktop-shd')

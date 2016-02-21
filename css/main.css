@@ -1,0 +1,1451 @@
+
+/* line 23 : D:\github\starter-theme\stylus\main.styl */
+
+/* line 1 : D:\github\starter-theme\node_modules\stylus\lib\functions\index.styl */
+
+/* line 286 : D:\github\starter-theme\node_modules\stylus\lib\functions\index.styl */
+
+/* line 12 : D:\github\starter-theme\stylus\_colors.styl */
+
+/* line 15 : D:\github\starter-theme\stylus\_colors.styl */
+
+/* line 1 : D:\github\starter-theme\stylus\_mixins.styl */
+
+/* line 276 : D:\github\starter-theme\stylus\_mixins.styl */
+
+/* line 5 : D:\github\starter-theme\stylus\_normalize.styl */
+
+/* line 6 : D:\github\starter-theme\stylus\_normalize.styl */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+}
+
+/* line 14 : D:\github\starter-theme\stylus\_normalize.styl */
+body {
+  margin: 0;
+}
+
+/* line 19 : D:\github\starter-theme\stylus\_normalize.styl */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* line 33 : D:\github\starter-theme\stylus\_normalize.styl */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 51 : D:\github\starter-theme\stylus\_normalize.styl */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 61 : D:\github\starter-theme\stylus\_normalize.styl */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 68 : D:\github\starter-theme\stylus\_normalize.styl */
+[hidden],
+template {
+  display: none;
+}
+
+/* line 78 : D:\github\starter-theme\stylus\_normalize.styl */
+a {
+  background-color: transparent;
+}
+
+/* line 84 : D:\github\starter-theme\stylus\_normalize.styl */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 94 : D:\github\starter-theme\stylus\_normalize.styl */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 99 : D:\github\starter-theme\stylus\_normalize.styl */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 105 : D:\github\starter-theme\stylus\_normalize.styl */
+dfn {
+  font-style: italic;
+}
+
+/* line 111 : D:\github\starter-theme\stylus\_normalize.styl */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 117 : D:\github\starter-theme\stylus\_normalize.styl */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 123 : D:\github\starter-theme\stylus\_normalize.styl */
+small {
+  font-size: 80%;
+}
+
+/* line 128 : D:\github\starter-theme\stylus\_normalize.styl */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 136 : D:\github\starter-theme\stylus\_normalize.styl */
+sup {
+  top: -0.5em;
+}
+
+/* line 140 : D:\github\starter-theme\stylus\_normalize.styl */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 149 : D:\github\starter-theme\stylus\_normalize.styl */
+img {
+  border: 0;
+}
+
+/* line 154 : D:\github\starter-theme\stylus\_normalize.styl */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 163 : D:\github\starter-theme\stylus\_normalize.styl */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 168 : D:\github\starter-theme\stylus\_normalize.styl */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 174 : D:\github\starter-theme\stylus\_normalize.styl */
+pre {
+  overflow: auto;
+}
+
+/* line 179 : D:\github\starter-theme\stylus\_normalize.styl */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 198 : D:\github\starter-theme\stylus\_normalize.styl */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 209 : D:\github\starter-theme\stylus\_normalize.styl */
+button {
+  overflow: visible;
+}
+
+/* line 217 : D:\github\starter-theme\stylus\_normalize.styl */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 227 : D:\github\starter-theme\stylus\_normalize.styl */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 236 : D:\github\starter-theme\stylus\_normalize.styl */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 242 : D:\github\starter-theme\stylus\_normalize.styl */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 250 : D:\github\starter-theme\stylus\_normalize.styl */
+input {
+  line-height: normal;
+}
+
+/* line 259 : D:\github\starter-theme\stylus\_normalize.styl */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 268 : D:\github\starter-theme\stylus\_normalize.styl */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 275 : D:\github\starter-theme\stylus\_normalize.styl */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+/* line 283 : D:\github\starter-theme\stylus\_normalize.styl */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 289 : D:\github\starter-theme\stylus\_normalize.styl */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 297 : D:\github\starter-theme\stylus\_normalize.styl */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 303 : D:\github\starter-theme\stylus\_normalize.styl */
+textarea {
+  overflow: auto;
+}
+
+/* line 309 : D:\github\starter-theme\stylus\_normalize.styl */
+optgroup {
+  font-weight: bold;
+}
+
+/* line 318 : D:\github\starter-theme\stylus\_normalize.styl */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 323 : D:\github\starter-theme\stylus\_normalize.styl */
+td,
+th {
+  padding: 0;
+}
+
+/* line 325 : D:\github\starter-theme\stylus\_normalize.styl */
+
+/* line 13 : D:\github\starter-theme\stylus\_typography.styl */
+
+/* line 17 : D:\github\starter-theme\stylus\_typography.styl */
+html {
+  line-height: 1.5rem;
+}
+
+/* line 21 : D:\github\starter-theme\stylus\_typography.styl */
+code {
+  background-color: #ddd;
+  color: #3e3e3e;
+  border-radius: 3px;
+  padding: 0.25rem;
+}
+
+/* line 28 : D:\github\starter-theme\stylus\_typography.styl */
+
+/* line 29 : D:\github\starter-theme\stylus\_typography.styl */
+pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+/* line 38 : D:\github\starter-theme\stylus\_typography.styl */
+.text-left {
+  text-align: left;
+}
+
+/* line 41 : D:\github\starter-theme\stylus\_typography.styl */
+.text-center {
+  text-align: center;
+}
+
+/* line 44 : D:\github\starter-theme\stylus\_typography.styl */
+.text-right {
+  text-align: right;
+}
+
+/* line 45 : D:\github\starter-theme\stylus\_typography.styl */
+
+/* line 17 : D:\github\starter-theme\stylus\_grid.styl */
+
+/* line 54 : D:\github\starter-theme\stylus\_grid.styl */
+.container,
+.row {
+  display: block;
+  width: 100%;
+  font-size: 0;
+  line-height: 0;
+}
+
+/* line 62 : D:\github\starter-theme\stylus\_grid.styl */
+.container.max,
+.row.max {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 67 : D:\github\starter-theme\stylus\_grid.styl */
+.container.center,
+.row.center {
+  text-align: center;
+}
+
+/* line 71 : D:\github\starter-theme\stylus\_grid.styl */
+.container > * {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  width: 100%;
+  vertical-align: top;
+  font-size: initial;
+  line-height: 1.5rem;
+}
+
+/* line 82 : D:\github\starter-theme\stylus\_grid.styl */
+.vtop {
+  vertical-align: top;
+}
+
+/* line 85 : D:\github\starter-theme\stylus\_grid.styl */
+.vcenter {
+  vertical-align: center;
+}
+
+/* line 88 : D:\github\starter-theme\stylus\_grid.styl */
+.vbaseline {
+  vertical-align: baseline;
+}
+
+/* line 152 : D:\github\starter-theme\stylus\_mixins.styl */
+._1-1 {
+  width: 100%;
+}
+
+/* line 157 : D:\github\starter-theme\stylus\_mixins.styl */
+._1-2 {
+  width: 50%;
+}
+
+/* line 162 : D:\github\starter-theme\stylus\_mixins.styl */
+._1-3 {
+  width: 33.333333%;
+}
+
+/* line 165 : D:\github\starter-theme\stylus\_mixins.styl */
+._2-3 {
+  width: 66.666666%;
+}
+
+/* line 170 : D:\github\starter-theme\stylus\_mixins.styl */
+._1-4 {
+  width: 25%;
+}
+
+/* line 173 : D:\github\starter-theme\stylus\_mixins.styl */
+._3-4 {
+  width: 75%;
+}
+
+/* line 178 : D:\github\starter-theme\stylus\_mixins.styl */
+._1-5 {
+  width: 20%;
+}
+
+/* line 181 : D:\github\starter-theme\stylus\_mixins.styl */
+._2-5 {
+  width: 40%;
+}
+
+/* line 184 : D:\github\starter-theme\stylus\_mixins.styl */
+._3-5 {
+  width: 60%;
+}
+
+/* line 187 : D:\github\starter-theme\stylus\_mixins.styl */
+._4-5 {
+  width: 80%;
+}
+
+/* line 192 : D:\github\starter-theme\stylus\_mixins.styl */
+._1-6 {
+  width: 16.666667%;
+}
+
+/* line 195 : D:\github\starter-theme\stylus\_mixins.styl */
+._5-6 {
+  width: 83.333335%;
+}
+
+/* line 200 : D:\github\starter-theme\stylus\_mixins.styl */
+._1-7 {
+  width: 14.285714%;
+}
+
+/* line 203 : D:\github\starter-theme\stylus\_mixins.styl */
+._2-7 {
+  width: 28.571428%;
+}
+
+/* line 206 : D:\github\starter-theme\stylus\_mixins.styl */
+._3-7 {
+  width: 42.857142%;
+}
+
+/* line 209 : D:\github\starter-theme\stylus\_mixins.styl */
+._4-7 {
+  width: 57.142856%;
+}
+
+/* line 212 : D:\github\starter-theme\stylus\_mixins.styl */
+._5-7 {
+  width: 71.42857%;
+}
+
+/* line 215 : D:\github\starter-theme\stylus\_mixins.styl */
+._6-7 {
+  width: 85.714284%;
+}
+
+/* line 220 : D:\github\starter-theme\stylus\_mixins.styl */
+._1-8 {
+  width: 12.5%;
+}
+
+/* line 223 : D:\github\starter-theme\stylus\_mixins.styl */
+._3-8 {
+  width: 37.5%;
+}
+
+/* line 226 : D:\github\starter-theme\stylus\_mixins.styl */
+._5-8 {
+  width: 62.5%;
+}
+
+/* line 229 : D:\github\starter-theme\stylus\_mixins.styl */
+._7-8 {
+  width: 87.5%;
+}
+
+/* line 234 : D:\github\starter-theme\stylus\_mixins.styl */
+._1-9 {
+  width: 11.111111%;
+}
+
+/* line 237 : D:\github\starter-theme\stylus\_mixins.styl */
+._2-9 {
+  width: 22.222222%;
+}
+
+/* line 240 : D:\github\starter-theme\stylus\_mixins.styl */
+._3-9 {
+  width: 33.333332999999996%;
+}
+
+/* line 243 : D:\github\starter-theme\stylus\_mixins.styl */
+._4-9 {
+  width: 44.444444%;
+}
+
+/* line 246 : D:\github\starter-theme\stylus\_mixins.styl */
+._5-9 {
+  width: 55.555555%;
+}
+
+/* line 249 : D:\github\starter-theme\stylus\_mixins.styl */
+._6-9 {
+  width: 66.66666599999999%;
+}
+
+/* line 252 : D:\github\starter-theme\stylus\_mixins.styl */
+._7-9 {
+  width: 77.777777%;
+}
+
+/* line 255 : D:\github\starter-theme\stylus\_mixins.styl */
+._8-9 {
+  width: 88.888888%;
+}
+
+/* line 260 : D:\github\starter-theme\stylus\_mixins.styl */
+._1-10 {
+  width: 10%;
+}
+
+/* line 263 : D:\github\starter-theme\stylus\_mixins.styl */
+._3-10 {
+  width: 30%;
+}
+
+/* line 266 : D:\github\starter-theme\stylus\_mixins.styl */
+._4-10 {
+  width: 40%;
+}
+
+/* line 269 : D:\github\starter-theme\stylus\_mixins.styl */
+._6-10 {
+  width: 60%;
+}
+
+/* line 272 : D:\github\starter-theme\stylus\_mixins.styl */
+._7-10 {
+  width: 70%;
+}
+
+/* line 275 : D:\github\starter-theme\stylus\_mixins.styl */
+._9-10 {
+  width: 90%;
+}
+@media all and (min-width: 0) {
+
+/* line 23 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="1-1"] {
+    width: 100%;
+  }
+
+/* line 28 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="1-2"] {
+    width: 50%;
+  }
+
+/* line 33 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="1-3"] {
+    width: 33.333333%;
+  }
+
+/* line 36 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="2-3"] {
+    width: 66.666666%;
+  }
+
+/* line 41 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="1-4"] {
+    width: 25%;
+  }
+
+/* line 44 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="3-4"] {
+    width: 75%;
+  }
+
+/* line 49 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="1-5"] {
+    width: 20%;
+  }
+
+/* line 52 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="2-5"] {
+    width: 40%;
+  }
+
+/* line 55 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="3-5"] {
+    width: 60%;
+  }
+
+/* line 58 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="4-5"] {
+    width: 80%;
+  }
+
+/* line 63 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="1-6"] {
+    width: 16.666667%;
+  }
+
+/* line 66 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="5-6"] {
+    width: 83.333335%;
+  }
+
+/* line 71 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="1-7"] {
+    width: 14.285714%;
+  }
+
+/* line 74 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="2-7"] {
+    width: 28.571428%;
+  }
+
+/* line 77 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="3-7"] {
+    width: 42.857142%;
+  }
+
+/* line 80 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="4-7"] {
+    width: 57.142856%;
+  }
+
+/* line 83 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="5-7"] {
+    width: 71.42857%;
+  }
+
+/* line 86 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="6-7"] {
+    width: 85.714284%;
+  }
+
+/* line 91 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="1-8"] {
+    width: 12.5%;
+  }
+
+/* line 94 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="3-8"] {
+    width: 37.5%;
+  }
+
+/* line 97 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="5-8"] {
+    width: 62.5%;
+  }
+
+/* line 100 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="7-8"] {
+    width: 87.5%;
+  }
+
+/* line 105 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="1-9"] {
+    width: 11.111111%;
+  }
+
+/* line 108 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="2-9"] {
+    width: 22.222222%;
+  }
+
+/* line 111 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="3-9"] {
+    width: 33.333332999999996%;
+  }
+
+/* line 114 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="4-9"] {
+    width: 44.444444%;
+  }
+
+/* line 117 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="5-9"] {
+    width: 55.555555%;
+  }
+
+/* line 120 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="6-9"] {
+    width: 66.66666599999999%;
+  }
+
+/* line 123 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="7-9"] {
+    width: 77.777777%;
+  }
+
+/* line 126 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="8-9"] {
+    width: 88.888888%;
+  }
+
+/* line 131 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="1-10"] {
+    width: 10%;
+  }
+
+/* line 134 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="3-10"] {
+    width: 30%;
+  }
+
+/* line 137 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="4-10"] {
+    width: 40%;
+  }
+
+/* line 140 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="6-10"] {
+    width: 60%;
+  }
+
+/* line 143 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="7-10"] {
+    width: 70%;
+  }
+
+/* line 146 : D:\github\starter-theme\stylus\_mixins.styl */
+  [mobile="9-10"] {
+    width: 90%;
+  }
+
+/* line 103 : D:\github\starter-theme\stylus\_grid.styl */
+  [mobile] {
+    padding: 1rem;
+  }
+}
+@media all and (min-width: 480px) {
+
+/* line 23 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="1-1"] {
+    width: 100%;
+  }
+
+/* line 28 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="1-2"] {
+    width: 50%;
+  }
+
+/* line 33 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="1-3"] {
+    width: 33.333333%;
+  }
+
+/* line 36 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="2-3"] {
+    width: 66.666666%;
+  }
+
+/* line 41 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="1-4"] {
+    width: 25%;
+  }
+
+/* line 44 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="3-4"] {
+    width: 75%;
+  }
+
+/* line 49 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="1-5"] {
+    width: 20%;
+  }
+
+/* line 52 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="2-5"] {
+    width: 40%;
+  }
+
+/* line 55 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="3-5"] {
+    width: 60%;
+  }
+
+/* line 58 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="4-5"] {
+    width: 80%;
+  }
+
+/* line 63 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="1-6"] {
+    width: 16.666667%;
+  }
+
+/* line 66 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="5-6"] {
+    width: 83.333335%;
+  }
+
+/* line 71 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="1-7"] {
+    width: 14.285714%;
+  }
+
+/* line 74 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="2-7"] {
+    width: 28.571428%;
+  }
+
+/* line 77 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="3-7"] {
+    width: 42.857142%;
+  }
+
+/* line 80 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="4-7"] {
+    width: 57.142856%;
+  }
+
+/* line 83 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="5-7"] {
+    width: 71.42857%;
+  }
+
+/* line 86 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="6-7"] {
+    width: 85.714284%;
+  }
+
+/* line 91 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="1-8"] {
+    width: 12.5%;
+  }
+
+/* line 94 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="3-8"] {
+    width: 37.5%;
+  }
+
+/* line 97 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="5-8"] {
+    width: 62.5%;
+  }
+
+/* line 100 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="7-8"] {
+    width: 87.5%;
+  }
+
+/* line 105 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="1-9"] {
+    width: 11.111111%;
+  }
+
+/* line 108 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="2-9"] {
+    width: 22.222222%;
+  }
+
+/* line 111 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="3-9"] {
+    width: 33.333332999999996%;
+  }
+
+/* line 114 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="4-9"] {
+    width: 44.444444%;
+  }
+
+/* line 117 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="5-9"] {
+    width: 55.555555%;
+  }
+
+/* line 120 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="6-9"] {
+    width: 66.66666599999999%;
+  }
+
+/* line 123 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="7-9"] {
+    width: 77.777777%;
+  }
+
+/* line 126 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="8-9"] {
+    width: 88.888888%;
+  }
+
+/* line 131 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="1-10"] {
+    width: 10%;
+  }
+
+/* line 134 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="3-10"] {
+    width: 30%;
+  }
+
+/* line 137 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="4-10"] {
+    width: 40%;
+  }
+
+/* line 140 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="6-10"] {
+    width: 60%;
+  }
+
+/* line 143 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="7-10"] {
+    width: 70%;
+  }
+
+/* line 146 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet="9-10"] {
+    width: 90%;
+  }
+}
+@media all and (min-width: 760px) {
+
+/* line 23 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="1-1"] {
+    width: 100%;
+  }
+
+/* line 28 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="1-2"] {
+    width: 50%;
+  }
+
+/* line 33 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="1-3"] {
+    width: 33.333333%;
+  }
+
+/* line 36 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="2-3"] {
+    width: 66.666666%;
+  }
+
+/* line 41 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="1-4"] {
+    width: 25%;
+  }
+
+/* line 44 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="3-4"] {
+    width: 75%;
+  }
+
+/* line 49 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="1-5"] {
+    width: 20%;
+  }
+
+/* line 52 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="2-5"] {
+    width: 40%;
+  }
+
+/* line 55 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="3-5"] {
+    width: 60%;
+  }
+
+/* line 58 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="4-5"] {
+    width: 80%;
+  }
+
+/* line 63 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="1-6"] {
+    width: 16.666667%;
+  }
+
+/* line 66 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="5-6"] {
+    width: 83.333335%;
+  }
+
+/* line 71 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="1-7"] {
+    width: 14.285714%;
+  }
+
+/* line 74 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="2-7"] {
+    width: 28.571428%;
+  }
+
+/* line 77 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="3-7"] {
+    width: 42.857142%;
+  }
+
+/* line 80 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="4-7"] {
+    width: 57.142856%;
+  }
+
+/* line 83 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="5-7"] {
+    width: 71.42857%;
+  }
+
+/* line 86 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="6-7"] {
+    width: 85.714284%;
+  }
+
+/* line 91 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="1-8"] {
+    width: 12.5%;
+  }
+
+/* line 94 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="3-8"] {
+    width: 37.5%;
+  }
+
+/* line 97 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="5-8"] {
+    width: 62.5%;
+  }
+
+/* line 100 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="7-8"] {
+    width: 87.5%;
+  }
+
+/* line 105 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="1-9"] {
+    width: 11.111111%;
+  }
+
+/* line 108 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="2-9"] {
+    width: 22.222222%;
+  }
+
+/* line 111 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="3-9"] {
+    width: 33.333332999999996%;
+  }
+
+/* line 114 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="4-9"] {
+    width: 44.444444%;
+  }
+
+/* line 117 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="5-9"] {
+    width: 55.555555%;
+  }
+
+/* line 120 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="6-9"] {
+    width: 66.66666599999999%;
+  }
+
+/* line 123 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="7-9"] {
+    width: 77.777777%;
+  }
+
+/* line 126 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="8-9"] {
+    width: 88.888888%;
+  }
+
+/* line 131 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="1-10"] {
+    width: 10%;
+  }
+
+/* line 134 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="3-10"] {
+    width: 30%;
+  }
+
+/* line 137 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="4-10"] {
+    width: 40%;
+  }
+
+/* line 140 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="6-10"] {
+    width: 60%;
+  }
+
+/* line 143 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="7-10"] {
+    width: 70%;
+  }
+
+/* line 146 : D:\github\starter-theme\stylus\_mixins.styl */
+  [tablet-landscape="9-10"] {
+    width: 90%;
+  }
+}
+@media all and (min-width: 1024px) {
+
+/* line 23 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="1-1"] {
+    width: 100%;
+  }
+
+/* line 28 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="1-2"] {
+    width: 50%;
+  }
+
+/* line 33 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="1-3"] {
+    width: 33.333333%;
+  }
+
+/* line 36 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="2-3"] {
+    width: 66.666666%;
+  }
+
+/* line 41 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="1-4"] {
+    width: 25%;
+  }
+
+/* line 44 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="3-4"] {
+    width: 75%;
+  }
+
+/* line 49 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="1-5"] {
+    width: 20%;
+  }
+
+/* line 52 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="2-5"] {
+    width: 40%;
+  }
+
+/* line 55 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="3-5"] {
+    width: 60%;
+  }
+
+/* line 58 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="4-5"] {
+    width: 80%;
+  }
+
+/* line 63 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="1-6"] {
+    width: 16.666667%;
+  }
+
+/* line 66 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="5-6"] {
+    width: 83.333335%;
+  }
+
+/* line 71 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="1-7"] {
+    width: 14.285714%;
+  }
+
+/* line 74 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="2-7"] {
+    width: 28.571428%;
+  }
+
+/* line 77 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="3-7"] {
+    width: 42.857142%;
+  }
+
+/* line 80 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="4-7"] {
+    width: 57.142856%;
+  }
+
+/* line 83 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="5-7"] {
+    width: 71.42857%;
+  }
+
+/* line 86 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="6-7"] {
+    width: 85.714284%;
+  }
+
+/* line 91 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="1-8"] {
+    width: 12.5%;
+  }
+
+/* line 94 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="3-8"] {
+    width: 37.5%;
+  }
+
+/* line 97 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="5-8"] {
+    width: 62.5%;
+  }
+
+/* line 100 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="7-8"] {
+    width: 87.5%;
+  }
+
+/* line 105 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="1-9"] {
+    width: 11.111111%;
+  }
+
+/* line 108 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="2-9"] {
+    width: 22.222222%;
+  }
+
+/* line 111 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="3-9"] {
+    width: 33.333332999999996%;
+  }
+
+/* line 114 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="4-9"] {
+    width: 44.444444%;
+  }
+
+/* line 117 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="5-9"] {
+    width: 55.555555%;
+  }
+
+/* line 120 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="6-9"] {
+    width: 66.66666599999999%;
+  }
+
+/* line 123 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="7-9"] {
+    width: 77.777777%;
+  }
+
+/* line 126 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="8-9"] {
+    width: 88.888888%;
+  }
+
+/* line 131 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="1-10"] {
+    width: 10%;
+  }
+
+/* line 134 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="3-10"] {
+    width: 30%;
+  }
+
+/* line 137 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="4-10"] {
+    width: 40%;
+  }
+
+/* line 140 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="6-10"] {
+    width: 60%;
+  }
+
+/* line 143 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="7-10"] {
+    width: 70%;
+  }
+
+/* line 146 : D:\github\starter-theme\stylus\_mixins.styl */
+  [desktop="9-10"] {
+    width: 90%;
+  }
+}
+
+/* line 149 : D:\github\starter-theme\stylus\_grid.styl */
+
+/* line 149 : D:\github\starter-theme\stylus\_nav.styl */
+
+/* line 1 : D:\github\starter-theme\stylus\_nav.styl */
+
+/* line 2 : D:\github\starter-theme\stylus\_nav.styl */
+nav > ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* line 4 : D:\github\starter-theme\stylus\_nav.styl */
+
+/* line 12 : D:\github\starter-theme\stylus\_button.styl */
+
+/* line 15 : D:\github\starter-theme\stylus\_button.styl */
+button,
+.button,
+[type="button"],
+[type="submit"],
+[type="reset"] {
+  display: inline-block;
+  border: 0;
+  padding: 0.5rem 0.8rem;
+  line-height: 1.5rem;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+/* line 28 : D:\github\starter-theme\stylus\_button.styl */
+button:active,
+.button:active,
+[type="button"]:active,
+[type="submit"]:active,
+[type="reset"]:active {
+  background-color: #c7c7c7;
+}
+
+/* line 31 : D:\github\starter-theme\stylus\_button.styl */
+button.rounded,
+.button.rounded,
+[type="button"].rounded,
+[type="submit"].rounded,
+[type="reset"].rounded {
+  border-radius: 3px;
+}
+
+/* line 34 : D:\github\starter-theme\stylus\_button.styl */
+button.circle,
+.button.circle,
+[type="button"].circle,
+[type="submit"].circle,
+[type="reset"].circle {
+  border-radius: 100%;
+  padding: 1rem;
+}
+
+/* line 40 : D:\github\starter-theme\stylus\_button.styl */
+
+/* line 41 : D:\github\starter-theme\stylus\_button.styl */
+.rounded button,
+.rounded .button,
+.rounded [type="button"],
+.rounded [type="submit"],
+.rounded [type="reset"] {
+  border-radius: 3px;
+}
+
+/* line 46 : D:\github\starter-theme\stylus\_button.styl */
+
+/* line 15 : D:\github\starter-theme\stylus\_form.styl */
+
+/* line 18 : D:\github\starter-theme\stylus\_form.styl */
+form,
+.form {
+  display: block;
+  width: 100%;
+  border-top: 0;
+  border-left: 0;
+}
+
+/* line 26 : D:\github\starter-theme\stylus\_form.styl */
+form h1,
+.form h1,
+form .h1,
+.form .h1,
+form h2,
+.form h2,
+form .h2,
+.form .h2,
+form h3,
+.form h3,
+form .h3,
+.form .h3,
+form h4,
+.form h4,
+form .h4,
+.form .h4,
+form h5,
+.form h5,
+form .h5,
+.form .h5,
+form h6,
+.form h6,
+form .h6,
+.form .h6 {
+  padding: 0.75rem;
+}
+
+/* line 35 : D:\github\starter-theme\stylus\_form.styl */
+label {
+  padding: 0.75rem;
+  vertical-align: middle;
+}
+
+/* line 40 : D:\github\starter-theme\stylus\_form.styl */
+label [type="text"],
+label [type="url"],
+label [type="number"],
+label [type="email"],
+label [type="tel"],
+label select {
+  -webkit-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid buttonface;
+  line-height: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+/* line 72 : D:\github\starter-theme\stylus\_form.styl */
+
+/* line 73 : D:\github\starter-theme\stylus\_form.styl */
+select option {
+  min-height: 1rem;
+  line-height: 1.5rem;
+}
+
+/* line 78 : D:\github\starter-theme\stylus\_form.styl */
+
+/* line 79 : D:\github\starter-theme\stylus\_form.styl */
+.col > label {
+  display: block;
+}
+
+/* line 80 : D:\github\starter-theme\stylus\_form.styl */
+
+/* line 11 : D:\github\starter-theme\stylus\_theme.styl */
+
+/* line 14 : D:\github\starter-theme\stylus\_theme.styl */
+.hr,
+.spacer {
+  margin: 2rem 0;
+}
+
+/* line 19 : D:\github\starter-theme\stylus\_theme.styl */
+.hr {
+  height: 0;
+  border-bottom: 2px solid $graylight;
+}

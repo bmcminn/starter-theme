@@ -1,0 +1,276 @@
+
+////////////////////////////////////////////////////////////
+//    ________________.-----------.___________________    //
+//   |                |   //^\\   |               \   |   //
+//   |   T I T L E    |  < CSS >  |   B  E  L  T   )  |   //
+//   |________________|   \\.//   |_______________/___|   //
+//                    `-----------'                       //
+//   Zot, Brandtley                                       //
+////////////////////////////////////////////////////////////
+
+
+
+appearance($args)
+    -webkit-appearance: $args
+    appearance: $args
+
+
+grid(name='')
+
+    if name != ''
+
+        // WHOLE
+        &[{name}="1-1"]
+            width: $whole
+
+
+        // HALFS
+        &[{name}="1-2"]
+            width: $half
+
+
+        // THIRDS
+        &[{name}="1-3"]
+            width: round($third, $precision)
+
+        &[{name}="2-3"]
+            width: round($third * 2, $precision)
+
+
+        // FOURTHS
+        &[{name}="1-4"]
+            width: $fourth
+
+        &[{name}="3-4"]
+            width: ($fourth * 3)
+
+
+        // FIFTHS
+        &[{name}="1-5"]
+            width: $fifth
+
+        &[{name}="2-5"]
+            width: ($fifth * 2)
+
+        &[{name}="3-5"]
+            width: ($fifth * 3)
+
+        &[{name}="4-5"]
+            width: ($fifth * 4)
+
+
+        // SIXTHS
+        &[{name}="1-6"]
+            width: round($sixth, $precision)
+
+        &[{name}="5-6"]
+            width: round($sixth * 5, $precision)
+
+
+        // SEVENTHS
+        &[{name}="1-7"]
+            width: $seventh
+
+        &[{name}="2-7"]
+            width: round($seventh * 2, $precision)
+
+        &[{name}="3-7"]
+            width: round($seventh * 3, $precision)
+
+        &[{name}="4-7"]
+            width: round($seventh * 4, $precision)
+
+        &[{name}="5-7"]
+            width: round($seventh * 5, $precision)
+
+        &[{name}="6-7"]
+            width: round($seventh * 6, $precision)
+
+
+        // EIGHTHS
+        &[{name}="1-8"]
+            width: $eighth
+
+        &[{name}="3-8"]
+            width: ($eighth * 3)
+
+        &[{name}="5-8"]
+            width: ($eighth * 5)
+
+        &[{name}="7-8"]
+            width: ($eighth * 7)
+
+
+        // NINTHS
+        &[{name}="1-9"]
+            width: $ninth
+
+        &[{name}="2-9"]
+            width: ($ninth * 2)
+
+        &[{name}="3-9"]
+            width: ($ninth * 3)
+
+        &[{name}="4-9"]
+            width: ($ninth * 4)
+
+        &[{name}="5-9"]
+            width: ($ninth * 5)
+
+        &[{name}="6-9"]
+            width: ($ninth * 6)
+
+        &[{name}="7-9"]
+            width: ($ninth * 7)
+
+        &[{name}="8-9"]
+            width: ($ninth * 8)
+
+
+        // TENTHS
+        &[{name}="1-10"]
+            width: $tenth
+
+        &[{name}="3-10"]
+            width: ($tenth * 3)
+
+        &[{name}="4-10"]
+            width: ($tenth * 4)
+
+        &[{name}="6-10"]
+            width: ($tenth * 6)
+
+        &[{name}="7-10"]
+            width: ($tenth * 7)
+
+        &[{name}="9-10"]
+            width: ($tenth * 9)
+
+    else
+
+        // WHOLE
+        &._1-1
+            width: $whole
+
+
+        // HALFS
+        &._1-2
+            width: $half
+
+
+        // THIRDS
+        &._1-3
+            width: $third
+
+        &._2-3
+            width: ($third * 2)
+
+
+        // FOURTHS
+        &._1-4
+            width: $fourth
+
+        &._3-4
+            width: ($fourth * 3)
+
+
+        // FIFTHS
+        &._1-5
+            width: $fifth
+
+        &._2-5
+            width: ($fifth * 2)
+
+        &._3-5
+            width: ($fifth * 3)
+
+        &._4-5
+            width: ($fifth * 4)
+
+
+        // SIXTHS
+        &._1-6
+            width: $sixth
+
+        &._5-6
+            width: round($sixth * 5, $precision)
+
+
+        // SEVENTHS
+        &._1-7
+            width: $seventh
+
+        &._2-7
+            width: round($seventh * 2, $precision)
+
+        &._3-7
+            width: round($seventh * 3, $precision)
+
+        &._4-7
+            width: round($seventh * 4, $precision)
+
+        &._5-7
+            width: round($seventh * 5, $precision)
+
+        &._6-7
+            width: round($seventh * 6, $precision)
+
+
+        // EIGHTHS
+        &._1-8
+            width: $eighth
+
+        &._3-8
+            width: ($eighth * 3)
+
+        &._5-8
+            width: ($eighth * 5)
+
+        &._7-8
+            width: ($eighth * 7)
+
+
+        // NINTHS
+        &._1-9
+            width: $ninth
+
+        &._2-9
+            width: ($ninth * 2)
+
+        &._3-9
+            width: ($ninth * 3)
+
+        &._4-9
+            width: ($ninth * 4)
+
+        &._5-9
+            width: ($ninth * 5)
+
+        &._6-9
+            width: ($ninth * 6)
+
+        &._7-9
+            width: ($ninth * 7)
+
+        &._8-9
+            width: ($ninth * 8)
+
+
+        // TENTHS
+        &._1-10
+            width: $tenth
+
+        &._3-10
+            width: ($tenth * 3)
+
+        &._4-10
+            width: ($tenth * 4)
+
+        &._6-10
+            width: ($tenth * 6)
+
+        &._7-10
+            width: ($tenth * 7)
+
+        &._9-10
+            width: ($tenth * 9)
