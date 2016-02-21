@@ -1,0 +1,47 @@
+{
+  "name": "starter-theme",
+  "version": "1.0.0",
+  "description": "A simple boiler plate starter theme for me, by me.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "jshint **",
+    "styles:dev": "stylus --line-numbers stylus/main.styl --out css/main.css",
+    "styles:build": "stylus --compress stylus/main.styl --out css/main.css",
+    "serve:php": "php -S localhost:3005",
+    "watch": "npm-scripts-watcher"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmcminn/starter-theme.git"
+  },
+  "keywords": [
+    "starter",
+    "site",
+    "stylus",
+    "html5"
+  ],
+  "author": "Brandtley McMinn <labs@gbox.name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmcminn/starter-theme/issues"
+  },
+  "watch": {
+    "stylus/**/*.styl": [
+      "styles:dev"
+    ]
+  },
+  "homepage": "https://github.com/bmcminn/starter-theme#readme",
+  "devDependencies": {
+    "jshint": "^2.9.1",
+    "npm-scripts-watcher": "^1.0.2",
+    "stylus": "^0.53.0"
+  },
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "cheerio": "^0.20.0",
+    "es6-template-strings": "^2.0.0",
+    "lodash": "^4.5.0",
+    "moment": "^2.11.2"
+  }
+}
